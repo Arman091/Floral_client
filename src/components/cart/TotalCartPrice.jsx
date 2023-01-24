@@ -40,7 +40,7 @@ const TotalCartPrice = ({ cartItems }) => {
 
   const confirmed = () => {
     alert(`Congratulation... Your order is placed`);
-    navigate("/orderConfirmation");
+    navigate("/");
   };
 
   const totalAmount = () => {
